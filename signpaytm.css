@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    font-family:'Times New Roman', Times, ;
+
+  
+
+}
+
+.page
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.welcome
+{
+    color: white;
+    margin-top:10px;
+    font-size: 50px;
+}
+.welcome img
+{
+    margin-top: 100px;
+background-color: rgb(76, 170, 207);
+}
+
+.breakline
+{
+    border: 1px solid #bbb;
+}
+
+form
+{
+    border: 1px solid #bbb; 
+    margin-top:100px;  
+    margin-left:100px;
+    height:1100px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.head
+{
+    height: 60px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+    color: blue;
+    font-size:20px;
+}
+.head h1
+{
+    background-color: white;
+}
+
+#firstname
+{
+    margin-top:50px;
+    margin-left: 80px;
+    width:300px;
+    height:50px;
+    font-size: 20px;
+    background-color: white;
+}
+
+#lastname
+{
+    margin-top: 100px;
+    margin-left:160px;
+    width:300px;
+    height:50px;
+    font-size: 20px;
+    background-color: white;
+}
+
+#email
+{
+    margin-top: 25px;
+    margin-left:80px;
+    width:770px;
+    height:50px;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+#password
+{
+    margin-top: 25px;
+    margin-left: 80px;
+    width:770px;
+    height:50px;
+    font-size: 20px;
+    background-color: white;
+}
+
+
+.forget
+{
+    text-align: center;
+    margin-top: 55px;
+    color: blue;
+    background-color: white;
+}
+.forget h3
+
+{
+    background-color: white;
+    font-size: 30px;
+}
+
+.signup
+{
+    background-color: white;
+    font-size: 30px;
+}
+.signup h2
+{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.ques
+{
+    background-color: white;
+}
+.ques h3
+{
+    background-color: white;
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+}
+
+h3
+{
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.login
+{
+    margin-top: 80px;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.login button
+{
+    width: 500px;
+    height: 70px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    font-weight:bolder;
+    margin-left:220px ;
+    border-radius: 10px;
+}
+

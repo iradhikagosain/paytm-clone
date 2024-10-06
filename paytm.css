@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+  }
+  body
+  {
+    background-color: rgb(224, 245, 253);
+  }
+  /* NAVBAR STYLING*/
+  .navbar {
+    background-color: white;
+    border: 1.5px solid black;
+    height: 150px;
+  }
+  
+  .paytm_name img {
+    margin-top: -50px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    float: left;
+  }
+  .paytm_options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 350px;
+    font-size: 28px;
+    color: black;
+  }
+  .sign_up button {
+    background-color: rgb(76, 170, 207);
+    height: 38px;
+    width: 110px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .sign_up a
+  {
+    text-decoration: none;
+  }
+  /*BOOKINGS METHODS*/
+  .bookings {
+    background-color: rgb(224, 245, 253);
+    height: 400px;
+    margin-top: -80px;
+  }
+  .booking_options {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 80px;
+  }
+  .booking_options div {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+  
+  .booking_options i {
+    margin-top: 7px;
+    font-size: 25px;
+  }
+  
+  /*BOOKING DETAILS AND TIMIMGS*/
+  .booking_details {
+    height: 700px;
+  }
+  .booking_timing {
+    display: flex;
+    height: 300px;
+    width: 90%;
+    margin-left: 150px;
+    margin-right: 120px;
+    margin-top: 25px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+  
+    background-color: white;
+  }
+  .booking_timing h3 {
+    color: lightslategray;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .booking_timing i {
+    font-size: 35px;
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  .booking_timing h2 {
+    color: rgb(49, 43, 43);
+    font-weight: 10px;
+    margin-top: 80px;
+    margin-right: 10px;
+  }
+  .booking_timing button {
+    background-color: rgb(76, 170, 207);
+    margin-left: 20px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 350px;
+    height: 90px;
+  }
+  .break_line {
+    border: 1px solid #bbb;
+    margin-top: -120px;
+    margin-left: 150px;
+    margin-right: 120px;
+  }
+  
+  /*BOOKING OFFERS*/
+  .booking_offers {
+
+    display: flex;
+  }
+  .booking_offers div {
+    margin-left: 220px;
+  }
+  .booking_offers div h3 {
+    color: black;
+    font-size: 20px;
+  }
+  .booking_offers div p {
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .booking_offers .special_fares h3 {
+    color: grey;
+    font-size: 22px;
+  }
+  .booking_offers .special_fares h2 {
+    color: rgb(6, 79, 29);
+    font-size: 22px;
+  }
+  
+  .travel_bookings_offers {
+    display: flex;
+    margin-left: 100px;
+    justify-content: flex-start;
+    margin-top: -350px;
+  }
+  .travel_bookings_offers div {
+    background-color: white;
+    margin-top: 410px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 120px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+  }
+  
+  .travel_bookings i {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  
+  .travel_offers i {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  
+  /* PAYTM OFFERS*/
+  .paytm_offers {
+    background-color: rgb(224, 245, 253);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  .paytm_offers div{
+    height: 270px;
+  }
+  
+  .paytm_offers img
+  {
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    width: 400px;
+    height: 270px;
+  }
+
+  .offer1
+  {
+    margin-left: 100px;
+  }
+  
+  .offer4
+  {
+    margin-right: 100px;
+  }
+
+
+  /*recharge and bills*/
+.recharge_head
+{
+  position:absolute;
+  height: 200px;
+  width: 100%;
+  margin-top: 200px;
+  background-color:rgb(76, 170, 207) ;
+  color: white;
+}
+
+.recharge_head h1
+{
+  font-size: 45px;
+  margin-left: 150px;
+  margin-top:100px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.recharge_bills
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin-top: 400px;
+  background-color: rgb(76, 170, 207);
+  height: 400px;
+  color: white;
+}
+
+.recharge_bills div
+{
+  
+  height: 120px;
+  width: 180px;
+  border-radius: 10px;
+  margin-left: 70px;
+
+}
+
+.recharge_bills div:hover
+{
+  border: 1px solid black;
+  box-shadow: 5px 5px rgb(255, 255, 255) ;
+  opacity: 20px;
+}
+
+.recharge_bills div i
+{
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.recharge_bills div h2
+{
+  margin-top: 55px;
+  margin-left: 10px;
+}
+
+/*INSTALL*/
+.install
+{
+  margin-top: 200px;
+  height: 60px;
+  background-color: rgb(76, 170, 207);
+  color: white;
+  text-align: center;
+}
+
+/*download buttons*/
+.download_buttons
+{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  margin-left: 100px;
+
+}
+
+.download_buttons div
+{
+  width: 500px;
+  height: 140px;
+  background-color: black;
+  margin-left: 100px;
+  color: white;
+}
+.download_buttons i
+{
+  font-size: 60px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.download_buttons  div h3
+{
+
+  margin-top: -60px;
+  margin-left:180px;
+  font-size: 30px;
+}
+
+.download_buttons div h2
+{
+  margin-top: 15px;
+  margin-left:180px;
+}
+
+.break_line1
+{
+  border: 1.5px solid #bbb;
+  margin-top: 120px;
+  margin-left: 150px;
+  margin-right: 120px;
+}
